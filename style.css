@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+/* ========== HEADER ========== */
+
+.header {
+    background-color: rgb(243, 215, 183);
+    padding-top: 22px;
+}
+
+.container {
+    max-width: 1380px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+
+.header__link {
+    color: #333333;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.header__link:hover {
+    color: red;
+}
+
+/* ========== HERO SECTION ========== */
+
+.hero {
+    padding-top: 120px;
+    background-color: rgb(243, 215, 183);
+    height: 800px;
+}
+
+.hero__textbox {
+    width: 447px;
+}
+
+.hero__title {
+    color: #000;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+    text-align: left;
+    width: 447px;
+    height: 150px;
+}
+
+.hero__text {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 47px 0;
+    width: 464px;
+    height: 72px;
+}
+
+.hero__btn {
+    border-radius: 100px;
+    width: 193px;
+    background-color: #0a775f;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.hero__btn:hover {
+    background-color: #075f4c;
+}
+
+.hero__img {
+    position: absolute;
+    width: 710px;
+    height: 694px;
+    left: 730px;
+    top: 176px;
+    padding-left: 216px;
+    padding-top: 135px;
+}
+
+.hero__logo {
+    margin-left: 700px;
+    margin-top: -300px;
+    z-index: -1;
+    animation: krug 3s linear infinite;
+}
+
+
+.toys__hed {
+    color: #000;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 59px;
+    text-align: center;
+    padding-top: 190px;
+    padding-bottom: 42px;
+}
+
+.toy__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.toy__item {
+    max-width: 300px;
+    text-align: center;
+}
+
+.toy__item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.toy__title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 16px;
+    color: #333;
+}
+
+.toy__text {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+}
+
+
